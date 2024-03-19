@@ -5,15 +5,9 @@ export * from './FooterComponent';
 export * from './HeroComponent';
 export * from './Navigation';
 export * from './PlaceholderComponent';
-export * from './StructureData';
 export * from './TestimonialsComponent';
 export * from './WhatWeDoSection';
-export * from './AboutUs';
-export * from './ServicesComponent';
 export * from './Blogs';
 export * from './Careers'
 export * from './Terms'
-export * from './Policy';
-export * from './TeamComponent';
-export * from './FAQ';
 
