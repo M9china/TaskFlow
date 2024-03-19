@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.scss'
-import { OpherLabsApplication } from './App'
+import { Application } from './App'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <OpherLabsApplication/>
+    <Application/>
   </React.StrictMode>,
 )

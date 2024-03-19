@@ -9,7 +9,7 @@ import { useEffect } from "react"
  * It uses a RouterProvider co.zaponent and passes in a router prop that is determined by the value of env.APP_MODE or defaults to 'base'.
  * @returns {ReactElement} The rendered application.
  */
-export const OpherLabsApplication = () => {
+export const Application = () => {
   // Initialize AOS animation library
   useEffect(() => {
     AOS.init({
