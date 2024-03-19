@@ -100,35 +100,23 @@ export const GetInTouch: React.FC<HeroComponentProps> = ({ data }) => {
                   id="message"
                   onChange={handleform}
                   className="border-none rounded-2xl text-gray-600 focus:outline-none focus:ring-0 bg-white"
-                  style={{
-                    resize: "none",
-                    border: "none",
-                    outline: "none",
-                    width: "30rem",
-                    margin: "0",
-                    height: "12rem",
-                    paddingLeft: "1rem",
-                    paddingTop: "2rem",
-                  }}
+                  style={{resize: "none", border: "none", outline: "none", width: "27rem", margin: "0", height: "9rem", paddingLeft: "1rem", paddingTop: "2rem",}}
                   placeholder="Write your email..."
                 />
 
                 <div
                   className="absolute bottom-0 w-full left-0 right-0 bg-gray-300 border-b-rounded-md border-gray-200 flex justify-between px-4 py-2 "
-                  style={{
-                    borderBottomLeftRadius: "10px",
-                    borderBottomRightRadius: "10px",
-                  }}
+                  style={{borderBottomLeftRadius: "10px", borderBottomRightRadius: "10px",}}
                 >
                   <button
-                    className="bg-blue-700 py-2 px-3 text-white mb-0 text-xs rounded-md"
+                    className="bg-blue-700 py-[0.4rem] px-3 text-white mb-0 text-xs rounded-md"
                     onClick={handleBackButtonClick}
                   >
                     Back
                   </button>
                   <button
                     type="submit"
-                    className="bg-blue-700 py-2 px-3 text-white text-xs rounded-md"
+                    className="bg-blue-700 py-[0.4rem] px-3 text-white text-xs rounded-md"
                     onClick={handleSubmit}
                   >
                     Contact us now

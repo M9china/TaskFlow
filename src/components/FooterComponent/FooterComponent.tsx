@@ -10,16 +10,16 @@ export const FooterComponent = () => {
         <div className=" border-t-2 sm:border-t sm:pt-8 border-gray-900/10 pt-5 xl:grid xl:grid-cols-3 xl:gap-8">
           <div className=" xl:mt-0">
             <h3 className="text-2xl font-semibold leading-6 text-gray-900">
-              OpherLabs
+              SkillForge
             </h3>
             <p className="mt-6 text-sm leading-6 text-gray-600">
-              At OpherLabs, software and app development are at the heart of
-              what we do. We specialize in creating cutting-edge, user-centric
-              software solutions and mobile applications that cater to a wide
-              range of industries and purposes. Our development team is adept at
-              leveraging the latest technologies and best practices to transform
-              concepts into functional, efficient, and elegant software
-              products.
+            At SkillForge, our core focus lies in software and app development. 
+            We excel in crafting innovative and user-friendly software solutions as well as 
+            mobile applications, tailored to meet the diverse needs of various industries. 
+            Our team of developers is skilled in harnessing the latest technologies and industry 
+            standards to turn ideas into practical, streamlined, and sophisticated software products. 
+            We're dedicated to delivering 
+            cutting-edge solutions that empower businesses and enhance user experiences.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-8 xl:col-span-2">
@@ -134,7 +134,7 @@ export const FooterComponent = () => {
             ))}
           </div>
           <p className="mt-8 text-xs leading-5 text-gray-500 md:order-1 md:mt-0">
-            Copyright &copy; {new Date().getFullYear()} OpherLabs, Inc. All
+            Copyright &copy; {new Date().getFullYear()} SkillForge, Inc. All
             rights reserved.
           </p>
         </div>

@@ -23,8 +23,8 @@ export const FOOTER_DATA = {
 
     legal: [
       { name: '+27 22 000 0000', href: '#' },
-      { name: 'hello@opherlabs.co.za', href: '#' },
-      { name: 'www.opherlabs.co.za', href: '#' },
+      { name: 'example@forge.co.za', href: '#' },
+      { name: 'www.m9-china.tech', href: '#' },
 
     ],
     social: [

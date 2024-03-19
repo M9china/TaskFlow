@@ -1,11 +1,6 @@
 import { useEffect, useState } from "react";
-import {
-  HeroComponent,
-  Purpose,
-  ClientsComponent,
-  GetInTouch,
-  BootcampComponent,
-} from "../../components";
+import { HeroComponent, Purpose, ClientsComponent, GetInTouch, BootcampComponent} from "../../components";
+
 export const HomePage = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -20,13 +15,13 @@ export const HomePage = () => {
   }, []);
 
   return (
-    <div className="sm:mx-0 ">
+    <div className="sm:mx-0">
       <section className="sm:mr-0">
         <HeroComponent
           data={{
             title: "Research And Development",
             description:
-              "At Opherlabs, we are driven by a relentless passion for innovation. Our core focus lies in pioneering research and development, shaping the future of technology, and creating exceptional mobile, desktop and web  apps and tech products that transform the way we live and work",
+              "At SkillForge, we are driven by a relentless passion for innovation. Our core focus lies in pioneering research and development, shaping the future of technology, and creating exceptional mobile, desktop and web  apps and tech products that transform the way we live and work.",
             cta: {
               label: "Join The Revolution",
               url: "/get-started",
@@ -45,7 +40,7 @@ export const HomePage = () => {
           data={{
             title: "We Are A Leading Technology Company",
             description:
-              "Opherlabs is a leading technology company specializing in research and development, creating cutting-edge tech products and mobile apps.",
+              "SkillForge is a leading technology company specializing in research and development, creating cutting-edge tech products and mobile apps.",
             cta: {
               label: "Read more about us",
               url: "/about",
@@ -77,7 +72,7 @@ export const HomePage = () => {
           data={{
             title: "What We do at OpherLabs",
             description:
-              "OpherLabs catalyzes breakthroughs and fosters an environment where the extraordinary becomes possible",
+              "SkillForge catalyzes breakthroughs and fosters an environment where the extraordinary becomes possible",
             image: {
               type: "image",
               styles: "h-[37.99rem]",
@@ -90,9 +85,9 @@ export const HomePage = () => {
       <section className="my-6 py-8">
         <ClientsComponent
           data={{
-            title: "Saphokazi Tiki",
+            title: "",
             subTitle:
-              "Perfect, very good job! Thank you for the amazing work on GoodAction. Really impressed with the high quality and quick turnaround time. Highly recommend.",
+              "Perfect, very good job! Thank you for the amazing work on our projects. Really impressed with the high quality and quick turnaround time. Highly recommend.",
             image: {
               type: "image",
               styles:
