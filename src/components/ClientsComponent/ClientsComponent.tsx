@@ -7,37 +7,37 @@ export const ClientsComponent: React.FC<HeroComponentProps> = ({ data }) => {
     {
       title: "Saphokazi Tiki",
       subTitle:
-        "Perfect, very good job! Thank you for the amazing work on GoodAction. Really impressed with the high quality and quick turnaround time. Highly recommend.",
+        "Perfect, very good job! Thank you for the amazing work. Really impressed with the high quality and quick turnaround time. Highly recommend.",
     },
     {
       title: "Nkateko Hlungwane",
       subTitle:
-        "Perfect, very good job! Thank you for the amazing work on GoodAction. Really impressed with the high quality and quick turnaround time. Highly recommend.",
+        "Perfect, very good job! Thank you for the amazing work. Really impressed with the high quality and quick turnaround time. Highly recommend.",
     },
     {
       title: "Daniel Velour Peter's",
       subTitle:
-        "Perfect, very good job! Thank you for the amazing work on GoodAction. Really impressed with the high quality and quick turnaround time. Highly recommend.",
+        "Perfect, very good job! Thank you for the amazing work. Really impressed with the high quality and quick turnaround time. Highly recommend.",
     },
     {
       title: "Nobuhle Ngobese",
       subTitle:
-        "Perfect, very good job! Thank you for the amazing work on GoodAction. Really impressed with the high quality and quick turnaround time. Highly recommend.",
+        "Perfect, very good job! Thank you for the amazing work. Really impressed with the high quality and quick turnaround time. Highly recommend.",
     },
     {
       title: "Daniel Mokoena",
       subTitle:
-        "Perfect, very good job! Thank you for the amazing work on GoodAction. Really impressed with the high quality and quick turnaround time. Highly recommend.",
+        "Perfect, very good job! Thank you for the amazing work. Really impressed with the high quality and quick turnaround time. Highly recommend.",
     },
     {
       title: "Mvundlela Nqobile",
       subTitle:
-        "Perfect, very good job! Thank you for the amazing work on GoodAction. Really impressed with the high quality and quick turnaround time. Highly recommend.",
+        "Perfect, very good job! Thank you for the amazing work. Really impressed with the high quality and quick turnaround time. Highly recommend.",
     },
     {
       title: "Kagisho Pitsi",
       subTitle:
-        "Perfect, very good job! Thank you for the amazing work on GoodAction. Really impressed with the high quality and quick turnaround time. Highly recommend.",
+        "Perfect, very good job! Thank you for the amazing work. Really impressed with the high quality and quick turnaround time. Highly recommend.",
     },
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
