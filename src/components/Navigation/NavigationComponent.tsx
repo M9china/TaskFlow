@@ -19,8 +19,8 @@ export const NavigationComponent = () => {
         <header className="bg-white fixed z-50 top-0 sm:w-full w-screen">
             <nav className="mx-auto flex max-w-[90rem] items-center justify-between sm:border-b-0 border-b-2 p-6 lg:px-8" aria-label="Global">
                 <Link to="/" className="-m-1.5 p-1.5">
-                    <span className="sr-only">OpherLabs</span>
-                    <p className='text-2xl font-bold'>OpherLabs</p>
+                    <span className="sr-only">SkillForge</span>
+                    <p className='text-2xl font-bold'>SkillForge</p>
                 </Link>
                 <div className="flex lg:hidden">
                     <button
@@ -52,8 +52,8 @@ export const NavigationComponent = () => {
                 <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
                         <Link to="/" className="-m-1.5 p-1.5">
-                            <span className="sr-only">OpherLabs</span>
-                            <p className='text-2xl font-bold'>OpherLabs</p>
+                            <span className="sr-only">SkillForge</span>
+                            <p className='text-2xl font-bold'>SkillForge</p>
                         </Link>
                         <button
                             type="button"
