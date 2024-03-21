@@ -5,37 +5,37 @@ export const ClientsComponent: React.FC<HeroComponentProps> = ({ data }) => {
   const { image } = data;
   const clientData = [
     {
-      title: "Saphokazi Tiki",
+      title: "First Client",
       subTitle:
         "Perfect, very good job! Thank you for the amazing work. Really impressed with the high quality and quick turnaround time. Highly recommend.",
     },
     {
-      title: "Nkateko Hlungwane",
+      title: "Second Client",
       subTitle:
         "Perfect, very good job! Thank you for the amazing work. Really impressed with the high quality and quick turnaround time. Highly recommend.",
     },
     {
-      title: "Daniel Velour Peter's",
+      title: "Third Client",
       subTitle:
         "Perfect, very good job! Thank you for the amazing work. Really impressed with the high quality and quick turnaround time. Highly recommend.",
     },
     {
-      title: "Nobuhle Ngobese",
+      title: "Fourth Client",
       subTitle:
         "Perfect, very good job! Thank you for the amazing work. Really impressed with the high quality and quick turnaround time. Highly recommend.",
     },
     {
-      title: "Daniel Mokoena",
+      title: "Fifth Client",
       subTitle:
         "Perfect, very good job! Thank you for the amazing work. Really impressed with the high quality and quick turnaround time. Highly recommend.",
     },
     {
-      title: "Mvundlela Nqobile",
+      title: "Sixth Client",
       subTitle:
         "Perfect, very good job! Thank you for the amazing work. Really impressed with the high quality and quick turnaround time. Highly recommend.",
     },
     {
-      title: "Kagisho Pitsi",
+      title: "Seven'th Client",
       subTitle:
         "Perfect, very good job! Thank you for the amazing work. Really impressed with the high quality and quick turnaround time. Highly recommend.",
     },

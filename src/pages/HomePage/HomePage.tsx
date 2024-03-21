@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { HeroComponent, Purpose, ClientsComponent, GetInTouch, BootcampComponent} from "../../components";
+import { HeroComponent, Purpose, ClientsComponent, GetInTouch} from "../../components";
 
 export const HomePage = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
