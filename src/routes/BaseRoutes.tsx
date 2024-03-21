@@ -10,7 +10,6 @@ export const baseRoutes = createBrowserRouter(
       <Route index path="/" element={<HomePage />} />
       <Route path="/services" element={<PlaceholderComponent title={"Services Page"} />} />
       <Route path="/about" element={<PlaceholderComponent title={"About Us Page"}/>} />
-      <Route path="/team" element={<PlaceholderComponent title={"Teams Page"}/>} />
       <Route path="/blog" element={<BlogPage />} />
       <Route path="/blog/:id" element={<OneBlog/>}/>
 
