@@ -75,8 +75,8 @@ export const Purpose: React.FC<HeroComponentProps> = ({ data }) => {
           data={{
             image: "/card1.webp",
             cardSubtitle:
-              "Our business ideation services at OpherLabs are the foundation for entrepreneurial innovation",
-            cardTitle: "Business Idea Planning",
+              "Efficiently extract essential information from business certificates using DataMorphAI.",
+            cardTitle: "Business Certificates",
             backgroundColor: "#F4F9FF",
           }}
         />
@@ -86,8 +86,8 @@ export const Purpose: React.FC<HeroComponentProps> = ({ data }) => {
           data={{
             image: "/card2.webp",
             cardSubtitle:
-              "Testing and security services are essential components in safeguarding digital systems and data",
-            cardTitle: "Testing and Troubleshooting",
+              "Simplify financial data analysis with DataMorphAI's bank statement extraction feature",
+            cardTitle: "Bank Statements",
             backgroundColor: "#FFF5DB",
           }}
         />
@@ -97,8 +97,8 @@ export const Purpose: React.FC<HeroComponentProps> = ({ data }) => {
           data={{
             image: "/card3.webp",
             cardSubtitle:
-              "At OpherLabs, software and app development are at the heart of what we do.",
-            cardTitle: "Website and App Development",
+              "Our advanced data extraction capabilities parse through CVs to extract candidate information",
+            cardTitle: "Curriculum Vitae",
             backgroundColor: "#F0E0FF",
           }}
         />
@@ -108,8 +108,8 @@ export const Purpose: React.FC<HeroComponentProps> = ({ data }) => {
           data={{
             image: "/card4.webp",
             cardSubtitle:
-              "Our R&D efforts are dedicated to uncovering novel solutions & advancing technology",
-            cardTitle: "Research & Development",
+              "Extract vital information from contracts and agreements effortlessly with DataMorphAI.",
+            cardTitle: "Contracts & Agreements",
             backgroundColor: "#DEFFEE",
           }}
         />

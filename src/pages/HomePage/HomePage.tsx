@@ -38,11 +38,11 @@ export const HomePage = () => {
       <section className="sm:my-6 sm:py-8 my-0 py-0">
         <HeroComponent
           data={{
-            title: "We Are A Leading Technology Company",
+            title: "Transform Your Workflows",
             description:
-              "SkillForge is a leading technology company specializing in research and development, creating cutting-edge tech products and mobile apps.",
+              "DataMorphAI streamlines the process of digital transformation, eliminating manual work and saving valuable time. Say goodbye to tedious data entry tasks and welcome a new era of efficiency and productivity with DataMorphAI.",
             cta: {
-              label: "Read more about us",
+              label: "Talk to our experts",
               url: "/about",
             },
             image: {
@@ -56,23 +56,11 @@ export const HomePage = () => {
         />
       </section>
       <section className="my-6 py-8">
-        <BootcampComponent
-          data={{
-            backgroundImage: "/team.webp",
-            title: "Next Bootcamp",
-            description:
-              "The next Bootcamp promises to be immersive journey where individuals come together to hone their skills, exchange knowledge, and forster innovation. From the moment you step throgh the door, you'll embark on a dynamic learning adventure",
-            buttonText: "Enroll Today",
-            targetDate: new Date("2023-11-16T20:03:00").getTime(),
-          }}
-        />
-      </section>
-      <section className="my-6 py-8">
         <Purpose
           data={{
-            title: "What We do at OpherLabs",
+            title: "Extract data from these documents",
             description:
-              "SkillForge catalyzes breakthroughs and fosters an environment where the extraordinary becomes possible",
+              "Not sure about what DataMorphAI can do, or which feature suits your needs? Here's an overview of DataMorphAI core concepts and protips on how to use it.",
             image: {
               type: "image",
               styles: "h-[37.99rem]",

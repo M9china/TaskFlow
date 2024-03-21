@@ -56,7 +56,7 @@ export const ClientsComponent: React.FC<HeroComponentProps> = ({ data }) => {
     <div className="sm:mb-8 sm:mt-24 mt-0 sm:w-full w-screen">
       <div className="font-bold sm:text-center sm:mx-0 mx-8 sm:mt-16">
         <h1 className="sm:text-4xl text-2xl  sm:text-center  font-bold">
-          What Our Happy Clients Say
+        Customer Success Stories
         </h1>
         <p className="sm:text-center sm:text-lg text-gray-500 mt-3">
           Several selected clients, who already believe in our service
