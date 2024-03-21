@@ -23,7 +23,7 @@ export const HeroComponent: React.FC<HeroComponentProps> = ({ data }) => {
   return (
     <div className="bg-white sm:w-full w-screen mt-[5rem] ">
       
-        <div className="mx-auto items-center sm:grid grid grid-cols-1 sm:grid-cols-5">
+        <div className="mx-auto items-center sm:grid grid gap-4 grid-cols-1 sm:grid-cols-5">
           <div className="mx-auto sm:col-span-2 col-span-1 lg:mx-0 sm:px-0 px-4 ">
             <h1 data-aos="fade-up" className="sm:mt-24  mt-10 text-3xl sm:pr-0  leading-tight font-bold tracking-tight text-gray-900 sm:text-4xl">
               {title}

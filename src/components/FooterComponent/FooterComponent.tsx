@@ -6,27 +6,13 @@ export const FooterComponent = () => {
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="mx-auto max-w-7xl px-6 pb-8 sm:pt-24 lg:px-8 lg:pt-32">
-        <div className=" border-t-2 sm:border-t sm:pt-8 border-gray-900/10 pt-5 xl:grid xl:grid-cols-3 xl:gap-8">
-          <div className=" xl:mt-0">
-            <h3 className="text-2xl font-semibold leading-6 text-gray-900">
-              SkillForge
-            </h3>
-            <p className="mt-6 text-sm leading-6 text-gray-600">
-            At SkillForge, our core focus lies in software and app development. 
-            We excel in crafting innovative and user-friendly software solutions as well as 
-            mobile applications, tailored to meet the diverse needs of various industries. 
-            Our team of developers is skilled in harnessing the latest technologies and industry 
-            standards to turn ideas into practical, streamlined, and sophisticated software products. 
-            We're dedicated to delivering 
-            cutting-edge solutions that empower businesses and enhance user experiences.
-            </p>
-          </div>
-          <div className="grid grid-cols-2 gap-8 xl:col-span-2">
+      <div className="mx-auto px-6 pb-8 sm:pt-24 lg:px-8 lg:pt-32">
+        <div className=" border-t-2 sm:border-t sm:pt-8 border-gray-900/10 pt-5 xl:grid xl:grid-cols-2 xl:gap-8">
+          <div className="grid grid-cols-2 gap-8 xl:col-span-4">
             <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div className="sm:mt-0 mt-4">
+              <div className="sm:mt-0 mt-4 ml-6">
                 <h3 className="text-md font-semibold leading-6 text-gray-300 sm:text-gray-900">
-                  What We Do
+                  Get Started
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {FOOTER_DATA.solutions.map((item) => (
@@ -43,7 +29,7 @@ export const FooterComponent = () => {
               </div>
               <div className="mt-10 md:mt-0">
                 <h3 className="text-md font-semibold leading-6 text-gray-300 sm:text-gray-900">
-                  Company
+                  Resources
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {FOOTER_DATA.company.map((item) => (

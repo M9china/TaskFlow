@@ -19,16 +19,16 @@ export const HomePage = () => {
       <section className="sm:mr-0">
         <HeroComponent
           data={{
-            title: "Research And Development",
+            title: "Automating Data Extraction and Conversion",
             description:
-              "At SkillForge, we are driven by a relentless passion for innovation. Our core focus lies in pioneering research and development, shaping the future of technology, and creating exceptional mobile, desktop and web  apps and tech products that transform the way we live and work.",
+              "Unlock the power of automation with DataMorphAI. Our platform empowers businesses to effortlessly extract and convert data from any type of forms and documents. Harnessing the cutting-edge capabilities of artificial intelligence.",
             cta: {
-              label: "Join The Revolution",
+              label: "Try it for free!",
               url: "/get-started",
             },
             image: {
               type: "image",
-              styles: " lab-radius-bl h-[44rem] w-full", // lab-radius-bl controls the left bottom radius
+              styles: " lab-radius-bl h-full w-full", // lab-radius-bl controls the left bottom radius
               src: "/hero/hero.webp",
               imageOrder: "order-last",
             },

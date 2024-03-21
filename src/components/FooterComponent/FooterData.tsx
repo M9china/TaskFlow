@@ -3,16 +3,20 @@ import { JSX } from "react/jsx-runtime"
 
 export const FOOTER_DATA = {
     solutions: [
-      { name: 'Web Design', href: '#' },
-      { name: 'App Design', href: '#' },
-      { name: 'Training', href: '#' },
-      { name: 'UI/UX Design', href: '#' },
-      { name: 'Bootcamp', href: '#' },
+      { name: 'Sign Up', href: '#' },
+      { name: 'Contact Sales', href: '#' },
+      { name: 'Pricing', href: '#' },
 
     ],
     company: [
-      { name: 'About Us', href: '/about' },
-      { name: 'Career', href: '/career' },
+      { name: 'Success Stories', href: '/about' },
+      { name: 'Blog', href: '/blog' },
+      { name: 'Documentation', href: '/docs' },
+      { name: 'Terms of Services', href: '/terms' },
+      { name: 'Data Privacy Policy', href: '/privacy' },
+
+
+
     ],
     support: [
       { name: 'FAQ', href: '/FAQ' },

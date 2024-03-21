@@ -19,8 +19,8 @@ export const NavigationComponent = () => {
         <header className="bg-white fixed z-50 top-0 sm:w-full w-screen">
             <nav className="mx-auto flex max-w-[90rem] items-center justify-between sm:border-b-0 border-b-2 p-6 lg:px-8" aria-label="Global">
                 <Link to="/" className="-m-1.5 p-1.5">
-                    <span className="sr-only">SkillForge</span>
-                    <p className='text-2xl font-bold'>SkillForge</p>
+                    <span className="sr-only">DataMorphAI</span>
+                    <p className='text-2xl font-bold'>DataMorphAI</p>
                 </Link>
                 <div className="flex lg:hidden">
                     <button
