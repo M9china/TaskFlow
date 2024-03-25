@@ -4,12 +4,13 @@ import { HomePage, BlogPage,} from "../pages";
 import {  PlaceholderComponent, TermsOfUsage} from "..";
 import CareerPage from "../pages/CareerPage/CareerPage";
 import { OneBlog } from "../components/Blogs/OneBlog";
+import UploadFile from "../components/Forms/UploadFile";
 export const baseRoutes = createBrowserRouter(
   createRoutesFromElements(
     <Route element={<HomeLayout />}>
       <Route index path="/" element={<HomePage />} />
       <Route path="/services" element={<PlaceholderComponent title={"Services Page"} />} />
-      <Route path="/about" element={<PlaceholderComponent title={"About Us Page"}/>} />
+      <Route path="/about" element={<UploadFile/>} />
       <Route path="/blog" element={<BlogPage />} />
       <Route path="/blog/:id" element={<OneBlog/>}/>
 
